@@ -1,0 +1,35 @@
+﻿2/8/2018
+
+Required to import:
+
+System.Data
+System.Data.Sql
+System.Data.SqlClient
+System.Data.SqlTypes
+System.Configuration
+(Data Model from project)
+
+I) Objects used in Data Tier
+  A) Sql Connection Object
+    1) Manage Connections
+	2) Require Connection String
+
+  B) SqlCommand Object
+    1) Manages SQL
+	2) Requires the Connection Object
+	3) Requires the SQL to execute
+
+  C) DataSet  (Stored on server)
+    1) Bi-Directional --> Can get and save data to and from a database management system.  
+	2) Holds a local copy of your tables
+	3) Can hold more than one table
+	4) Mostly used for desktop applications
+
+	*(Array == Collection)* SAME THING!!
+
+  D) DataReader (SqlDataReader)
+    1) Provides a forward only result
+	2) Used more for web applications
+	3) Replaces the DataSet
+
+Lists like arrays, but has variable size (can increase or decrease size if needed)
